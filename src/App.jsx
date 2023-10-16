@@ -1,9 +1,10 @@
 
 import './App.css';
 import NavBar from './Components/Navbar'
-import CarrucelPromo from './Components/CarrucelProductos';
-import Producto from './Components/Producto';
 import Home from './Components/Home';
+import Productos from "./Components/Productos";
+import Footer from './Components/footer';
+import Registro from './Components/Registro';
 import{BrowserRouter as Router}from 'react-router-dom'
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
     <div className="App">
       <Router>
         <NavBar/>
-        <CarrucelPromo/>
-        <Producto/>
         <Home/>
+        <Registro/>
+        <Productos/>
+        <Footer/>
       </Router>
     </div>
   );

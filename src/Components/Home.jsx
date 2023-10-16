@@ -1,9 +1,10 @@
-import Productos from "./Productos";
+import CarrucelProducto from "./CarrucelProductos"
 function Home (){
       return(
          <div>
-            <Productos/>
+           <CarrucelProducto/>
          </div>
+         
      )
 }
 export default Home

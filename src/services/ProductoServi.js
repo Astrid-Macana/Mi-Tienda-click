@@ -1,10 +1,10 @@
 import instance from"../Config/axios"
 
 export function getAllProductos(){
-    return instance.get("'https://fakestoreapi.com/products'");
+    return instance.get("products");
 }
-export function getByIdProductos(id) {
-    return instance.get(`items/${id}`);
+export function getProducto() {
+    return instance.get("/products/1");
 }
 export function createProductos() {
     

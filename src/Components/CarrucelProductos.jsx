@@ -7,36 +7,36 @@ function CarrucelPromo() {
     <Carousel className=" contenedor" data-bs-theme="dark">
       <Carousel.Item className="item">
         <img
-          className="d-block w-10"
-          src="../image/coleccion.jpg"
+          className="d-block w-100"
+          src="../image/Presentación.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5>seccion de tecnologia</h5>
+          <p>oferta limitada por unidad </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-10"
-          src="../image/coleccion1.jpg"
+          className="d-block w-100"
+          src="../image/Presentación1.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>seccion de ojoyas</h5>
+          <p>Escoge tu mejor Acecesorio</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-10"
-          src="../image/coleccion2.jpg"
+          className="d-block w-100"
+          src="../image/Presentación2.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h5>Third slide label</h5>
+          <h5> seccion ropa para hombre</h5>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Que tu comodidad sea tu mejor estilo.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
