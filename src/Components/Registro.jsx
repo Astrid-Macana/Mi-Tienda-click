@@ -1,29 +1,30 @@
-import React from "react";
-import { MDBInput, MDBCheckbox, MDBBtn } from "mdb-react-ui-kit";
 
-function Registro() {
-    return (
-      <form className="form">
-        <MDBInput className="mb-4" id="form5Example1" label="Name" />
-        <MDBInput
-          className="mb-4"
-          type="email"
-          id="form5Example2"
-          label="Email address"
-        />
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
-        <MDBCheckbox
-          wrapperClass="d-flex justify-content-center mb-4"
-          id="form5Example3"
-          label="I have read and agree to the terms"
-          defaultChecked
-        />
+function Formulario() {
+  return (
+    <Form>
+      <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Text className="text-muted">
+          We'll never share your email with anyone else.
+        </Form.Text>
+      </Form.Group>
 
-        <MDBBtn type="submit" block>
-          Subscribe
-        </MDBBtn>
-      </form>
-    );
+      <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Label>Password</Form.Label>
+        <Form.Control type="password" placeholder="Password" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="formBasicCheckbox">
+        <Form.Check type="checkbox" label="Check me out" />
+      </Form.Group>
+      <Button variant="primary" type="submit">
+        Submit
+      </Button>
+    </Form>
+  );
 }
 
-export default Registro
+export default Formulario;
